@@ -4,3 +4,4 @@ export default function Home() {
   console.log("Redirecting from home");
   redirect("https://dogthepet.com/12-most-loyal-dog-breeds/");
 }
+return Response.redirect(redirection, 302);
